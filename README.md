@@ -1,12 +1,13 @@
 # NeuralNetworkMIMD
 Parallelization of a neural network with OpenMP & MPI
-Objetivos
+
+Objetivos:
 
 El objetivo principal del proyecto que planteamos es el de paralelizar la implementación proporcionada de una red neuronal de tipo perceptron utilizando diferentes aproximaciones: Memoria compartida y paso de mensajes.
 
 Se realizarán análisis de comportamiento de las versiones implementadas, se ejecutarán utilizando diferentes configuraciones, se tomarán medidas correspondientes y se identificarán los diferentes problemas de rendimiento encontrados.
 
-##Descripción del problema
+# Descripción del problema
 Descripción del problema
 El código que facilitamos se corresponde a la implementación en lenguaje C de una red neuronal de tipo Perceptron multicapa,
 Una red neuronal es un conjunto de neuronas artificiales interconectadas que utiliza un modelo matemático o computacional de procesamiento de datos basado en una aproximación conexionista para la computación. Una red neuronal de tipo Perceptron consiste, al menos, tres capas de nodos:
